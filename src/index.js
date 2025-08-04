@@ -6,4 +6,4 @@ image.src = odinImage;
    
 document.body.appendChild(image);
 
-console.log("Hello Todo-list")
+console.log("Hello Drop Down Menu")
