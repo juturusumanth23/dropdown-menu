@@ -1,4 +1,34 @@
 /* styles.css */
-body {
-  background-color: rebeccapurple;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  background-color: aqua;
+}
+
+nav>button {
+  align-self: flex-end;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  list-style-type: none;
+  width: 350px;
+  padding: 24px;
+  background-color:antiquewhite;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
 }

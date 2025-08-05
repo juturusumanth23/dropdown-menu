@@ -1,9 +1,11 @@
 import "./styles.css";
-import odinImage from "./odin.png";
 
-const image = document.createElement("img");
-image.src = odinImage;
-
-document.body.appendChild(image);
-
-console.log("Hello Drop Down Menu");
+const button = document.querySelector("button");
+const nav = document.querySelector("nav");
+const hidden = document.querySelector("ul")
+button.addEventListener("click", toggleNav)
+function toggleNav() {
+  hidden.className = (hidden.className == "hidden") 
+                   ? "shown" 
+                   : "hidden";
+}
